@@ -1,0 +1,156 @@
+.page__4 {
+  width: 100%;
+  height: 810px;
+  background: #000;
+  padding-top: 130px;
+}
+
+.page__4 .container {
+  width: 1320px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page__4 .container .info1 {
+  max-width: 732px;
+}
+
+.page__4 .container .info1 h3 {
+  display: flex;
+  align-items: center;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #57B8FF;
+  height: 32px;
+  margin-left: -86px;
+
+}
+
+.page__4 .container .info1 h1 {
+  text-align: left;
+  width: 684px;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  text-transform: capitalize;
+  margin-bottom: 38px;
+  color: #FFFFFF;
+}
+
+.page__4 .container .info1 p {
+  text-align: left;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(223, 223, 223, 0.8);
+  margin-bottom: 54px;
+}
+
+.info1 .buttons .button {
+  padding: 21px 34px;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background: #57B8FF;
+}
+
+.info1 .buttons .button:hover {
+  color: #FAC422;
+}
+
+.page__4 .video {
+  position: relative;
+  width: 492px;
+  height: 550px;
+}
+
+.page__4 .video .child {
+  position: absolute;
+  top: 40%;
+  left: 95px;
+}
+
+.page__4 .video .child:hover {
+  width: 150px;
+  height: 150px;
+}
+
+.page__4 .video .head {
+  position: absolute;
+  top: 0;
+  left: -86px;
+}
+
+.page__5 {
+  width: 100%;
+  background: #2A313C;
+  height: 695px;
+  padding: 0;
+}
+
+.page__5 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1320px;
+  height: 100%;
+  margin: auto;
+}
+
+.page__5 .container .image {
+  height: 695px;
+}
+
+.page__5 .container .info1 {
+  width: 596px;
+}
+
+.images {
+  width: 596px;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.images .rectangle {
+  width: 44px;
+  height: 44px;
+  background: #3F8CFF;
+  position: absolute;
+  top: 40px;
+  left: 0;
+
+}
+
+.images .rectangle2 {
+  width: 44px;
+  height: 44px;
+  background: #3F8CFF;
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+.images .img1 {
+  cursor: pointer;
+}
+
+.images .img2 {
+  cursor: pointer;
+}

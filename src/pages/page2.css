@@ -10,7 +10,7 @@
 
 }
 
-h1 {
+.page__2 h1 {
   font-family: 'Orbitron';
   font-style: normal;
   font-weight: 400;
@@ -22,12 +22,12 @@ h1 {
   margin-bottom: 5px;
 }
 
-img {
+.page__2 img {
   padding-left: 82px;
   margin-bottom: 29px;
 }
 
-p {
+.page__2 p {
   max-width: 576px;
   font-family: 'Orbitron';
   font-style: normal;

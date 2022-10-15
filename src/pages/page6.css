@@ -1,0 +1,51 @@
+.page__6 {
+  width: 100%;
+  background: #2A313C;
+  height: 732px;
+}
+
+.page__6 .container {
+  display: flex;
+  width: 1440px;
+  height: 100%;
+  margin: auto;
+
+
+}
+
+.page__6 .container .block {
+  width: 480px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page__6 .container .block1 {
+  background-image: url(./Images/page6bg\ \(3\).png);
+}
+
+.page__6 .container .block2 {
+  background-image: url(./Images/page6bg\ \(2\).png);
+}
+
+.page__6 .container .block3 {
+  background-image: url(./Images/page6bg\ \(1\).png);
+}
+
+.page__6 .container .block h1 {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 0;
+
+}

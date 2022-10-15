@@ -1,0 +1,94 @@
+.footer {
+  width: 100%;
+  height: 507px;
+  padding-top: 130px;
+  background: #222730;
+}
+
+.footer .container {
+  width: 1320px;
+  height: 317px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.footer .container .block {
+  list-style: none;
+
+}
+
+.footer .container .block li:first-child {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 23px;
+}
+
+.footer .container .block li a {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 38px;
+  text-transform: capitalize;
+  color: #999999;
+
+}
+
+.footer .container .block li a:hover {
+  color: #FAC422;
+}
+
+.footer .container .block-1 p {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #999999;
+  width: 289px;
+  margin-top: 35px;
+
+}
+
+.footer .container .block-4 li {
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .container .block-4 li a ion-icon {
+  width: 48px;
+  height: 48px;
+}
+
+hr {
+  width: 1320px;
+  margin: auto;
+  border: .5px solid #3E3E3E;
+}
+
+.footer .copy {
+  max-width: 320px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 127px;
+}
+
+.footer .copy p {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #898989;
+}
