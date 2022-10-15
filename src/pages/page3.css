@@ -1,0 +1,132 @@
+.page__3 {
+  background-image: url(./Images/page3bg.png);
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1440px;
+  width: 100%;
+  height: 1072px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 136px;
+}
+
+.textbox h3 {
+  display: flex;
+  align-items: center;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #57B8FF;
+  height: 32px;
+
+}
+
+.textbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+
+.textbox h3 img {
+  width: 32px;
+  height: 32px;
+  margin-left: -86px;
+  margin-right: 8px;
+  margin-bottom: -5px;
+}
+
+.textbox h1 {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  text-align: center;
+  text-transform: capitalize;
+  max-width: 716px;
+  margin-top: 11px;
+  margin-bottom: 39px;
+  color: #FFFFFF;
+
+}
+
+.textbox p {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(223, 223, 223, 0.8);
+}
+
+.cards {
+  max-width: 1204px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cards__1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.cards__2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  width: 586px;
+  height: 212px;
+  position: relative;
+  padding-right: 35px;
+  padding-top: 10px;
+  margin: 16px;
+}
+
+.card img {
+  position: absolute;
+  top: 35px;
+  left: -50px;
+}
+
+.card .card__text {
+  margin-left: 80px;
+}
+
+.card__text h1 {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-align: left;
+  margin-bottom: 19px;
+}
+
+.card__text p {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(223, 223, 223, 0.8);
+  text-align: left;
+}

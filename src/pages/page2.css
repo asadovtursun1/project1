@@ -1,0 +1,62 @@
+.page__2 {
+  width: 1440px;
+  width: 100%;
+  height: 542px;
+  background: #FDD04A;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 128px;
+
+}
+
+h1 {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #222730;
+  margin-bottom: 5px;
+}
+
+img {
+  padding-left: 82px;
+  margin-bottom: 29px;
+}
+
+p {
+  max-width: 576px;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #555555;
+  margin-bottom: 40px;
+}
+
+.brands {
+  display: flex;
+  align-items: center;
+  max-width: 1320px;
+  width: 90%;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.brands .brand {
+  width: 193px;
+  height: 89px;
+
+}
+
+.brands .brand img {
+  width: 100%;
+  object-fit: cover;
+  margin-left: -85px;
+}
